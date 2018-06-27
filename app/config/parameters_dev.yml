@@ -1,0 +1,16 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: symfony_api
+    database_user: root
+    database_password: root
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: 37057cf72abd357c9dd03380227783048171127c
+    jwt_private_key_path: '%kernel.root_dir%/config/jwt/private.pem'
+    jwt_public_key_path:  '%kernel.root_dir%/config/jwt/public.pem'
+    jwt_key_pass_phrase:  'vallabh'
+    jwt_token_ttl:  3600

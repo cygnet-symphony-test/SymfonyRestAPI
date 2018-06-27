@@ -1,0 +1,14 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+api_login_check:
+    path: /api/login
+    methods:  [POST]
+    defaults:
+        _format: json
+
+api:
+    resource: "@AppBundle/Controller/ApiController.php"
+    prefix:   /api
+    type:     annotation

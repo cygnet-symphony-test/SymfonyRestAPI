@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/normalize.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/skeleton.css') }}"><link rel="stylesheet" type="text/css" href="{{ asset('assets/css/custom.css') }}">
+    </head>
+    <body>
+        <div class="container">
+            {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+        </div>
+    </body>
+</html>
