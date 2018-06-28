@@ -4,16 +4,20 @@ symfony-blog
 How to setup project.
 
 [ Step :- 1]
+
 	Change DB value as per your suite under bellow file.
 		~
 			app/config/parameters.yml
-		~
+		
+
 [ Step :- 2]				
+
 	Run a make file from the project root folder using bellow command.
 	
 ~~~bash
 	./bin/MAKEFILE.sh
 ~~~
+
 The above command do following things.
 1. - Fetch latest binary of  composer   
 2. - Fetch all vendor library
@@ -26,6 +30,7 @@ The above command do following things.
 [ Step :- 3]
 	- Whatever the passphrase you have entered into [Step:2] , Assign that passphrase into `app/config/config.yml` to `pass_phrase:` key.
 	- In current project I have used `vallabh` as a passphrase.
+	
 [ Step :- 4]
 	Import postman collection using `SymfonyRestApi.postman_collection.json`
 
